@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #333;
+    --second-color: #FFF;
+}
+*{
+    box-sizing:border-box;
+    outline: 0;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background: var(--primary-color) ;
+
+}
+section input, section label, section button{
+    display: block;
+    margin: 0 auto;
+}
+section input{
+    margin: 10px 0;
+    font-size: 24px;
+    width: 100%;
+
+}
+section input:hover{
+    background-color: antiquewhite;
+    
+}
+section form button:hover{
+    background-color:beige;
+}
+section button{
+    margin-top: 20px;
+    font-size: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+section{
+    margin: 0 auto;
+    background: var(--second-color);
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    font-size: 24px;
+    padding: 20px;
+    border-radius: 20px;
+}
+header{
+    margin: 20px 0;
+}
+#resultado{
+    background-color: rgb(63, 183, 101);
+}
+.paragrafo, .bad{
+    background:rgb(104, 236, 146);
+    padding: 10px 20px;
+}
+.bad{
+    background: red;
+}
+.IMC{
+    display: flex;
+}
+.imc1{
+    margin-right: 80px;
+}
